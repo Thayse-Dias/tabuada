@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: "Comic Sans MS", cursive;
+  background: linear-gradient(135deg, #ffdee9, #b5fffc);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 420px;
+  margin: auto;
+  padding: 15px;
+  text-align: center;
+}
+
+h1 {
+  color: #ff6f91;
+  font-size: 24px;
+}
+
+.mascot {
+  margin-bottom: 10px;
+}
+
+.mascot img {
+  width: 120px;
+  animation: float 3s ease-in-out infinite;
+}
+
+#speech {
+  background: white;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 14px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+#timer {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #d65db1;
+}
+
+#card {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+input {
+  width: 90%;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 15px;
+  border: 2px solid #ddd;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 20px;
+  font-size: 18px;
+  border: none;
+  background: #ff6f91;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#nextBtn {
+  display: none;
+  background: #845ec2;
+}
+
+#restartBtn {
+  background: #00c9a7;
+}
+
+#restartBtn:hover {
+  background: #00b49f;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+#rewards {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #845ec2;
+}
+
+.history {
+  background: white;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.history ul {
+  list-style
